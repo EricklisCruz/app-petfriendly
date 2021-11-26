@@ -119,13 +119,14 @@ public class AlimentadoresFragment extends Fragment {
                          filterAlimentador(idAlimentador, pesquisarAlimentador);
                      }
                  }else {
-                     Toast.makeText(getContext(), "Erro ao carregar", Toast.LENGTH_SHORT).show();
+                     Toast.makeText(getContext(), "Erro ao carregar: " +response.message(), Toast.LENGTH_SHORT).show();
                  }
 
             }
 
             @Override
             public void onFailure(Call<List<Alimentador>> call, Throwable t) {
+                Toast.makeText(getContext(), "Erro ao carregar: "+t.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -153,7 +154,7 @@ public class AlimentadoresFragment extends Fragment {
                       }
 
                 }else {
-                    Toast.makeText(getContext(), "Erro ao carregar", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(), "Erro ao carregar: "+response.message(), Toast.LENGTH_SHORT).show();
                     progressBar.setVisibility(View.GONE);
                 }
 
@@ -161,7 +162,7 @@ public class AlimentadoresFragment extends Fragment {
 
             @Override
             public void onFailure(Call<List<Alimentador>> call, Throwable t) {
-
+                Toast.makeText(getContext(), "Erro ao carregar: "+t.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
 

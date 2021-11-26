@@ -3,24 +3,25 @@ package br.com.gpro.petfriendly.service;
 import android.content.Context;
 import android.location.Address;
 import android.location.Geocoder;
+import android.util.Log;
 
 import java.util.List;
 import java.util.Locale;
 
-public class CompleteAddressString {
+public class BuscaEnderecoCompleto {
 
     private Context context;
     private String strAdd;
     private double latitude;
     private double longetude;
 
-    public CompleteAddressString(Context context, double latitude, double longetude) {
+    public BuscaEnderecoCompleto(Context context, double latitude, double longetude) {
         this.latitude = latitude;
         this.longetude = longetude;
         this.context = context;
     }
 
-    public String getCompleteAddressString() {
+    public String getEnderecoCompleto() {
 
         Geocoder geocoder = new Geocoder(context, Locale.getDefault());
         try {
@@ -33,15 +34,13 @@ public class CompleteAddressString {
                     strReturnedAddress.append(returnedAddress.getAddressLine(i)).append("\n");
                 }
                 strAdd = strReturnedAddress.toString();
-                //  Log.w("My Current loction address", strReturnedAddress.toString());
             } else {
-                // Log.w("My Current loction address", "No Address returned!");
+                 Log.w("Localização Atual: ", "Nenhum endereço retornado!");
             }
         } catch (Exception e) {
             e.printStackTrace();
-            // Log.w("My Current loction address", "Canont get Address!");
+             Log.w("Localização Atual: ", "Canont get Address!");
         }
-
         return strAdd;
     }
 }

@@ -42,7 +42,7 @@ import br.com.gpro.petfriendly.api.DataService;
 import br.com.gpro.petfriendly.model.Alimentador;
 import br.com.gpro.petfriendly.model.LocalizacaoGeocoder;
 import br.com.gpro.petfriendly.permissoes.Permissoes;
-import br.com.gpro.petfriendly.service.CompleteAddressString;
+import br.com.gpro.petfriendly.service.BuscaEnderecoCompleto;
 import br.com.gpro.petfriendly.service.RetrofitClientInstance;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -60,7 +60,7 @@ public class MapaAlimentadoresFragment extends Fragment {
     private View view;
     private BottomSheetBehavior bottomSheetBehavior;
     private LinearLayout linearLayoutBSheet;
-    private CompleteAddressString completeAddressString;
+    private BuscaEnderecoCompleto buscaEnderecoCompleto;
     private LocalizacaoGeocoder localizacaoGeocoder;
     private List<Alimentador> listaAlimentador = new ArrayList<>();
 
