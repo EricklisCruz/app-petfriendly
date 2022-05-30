@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/drawable/backgraoud_degrade.xml" value="0.2203125" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/drawable/button.xml" value="0.2203125" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/drawable/container_components.xml" value="0.2203125" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/drawable/edit_text.xml" value="0.2203125" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/layout/activity_form_cadastro.xml" value="0.25" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/layout/activity_form_login.xml" value="0.19171779141104295" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/layout/activity_tela_inicial.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/layout/bottom_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/layout/bottom_sheet.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/layout/fragment_alimentadores.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/layout/fragment_mapa_alimentadores.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/layout/layout_recyclear_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/layout/progress_bar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/layout/toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/erick/Music/app-petfriendly/AppPetfriendly/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
